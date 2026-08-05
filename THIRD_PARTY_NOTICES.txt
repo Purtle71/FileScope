@@ -1,0 +1,21 @@
+FileScope — Third-Party Notices
+===============================
+
+This distribution bundles open-source Python libraries and their transitive runtime
+components. Their package metadata and license files are retained by PyInstaller
+where supplied by the projects.
+
+Offline map data
+----------------
+The bundled low-resolution country boundary database is derived from Natural Earth
+1:110m country data. Natural Earth states that its data is in the public domain.
+The data is used for offline geographic context and country-level lookup only.
+
+YARA engine
+-----------
+FileScope uses YARA-X from VirusTotal. The build kit includes its official
+precompiled Windows Python wheel rather than compiling yara-python from source.
+
+Other principal projects include Qt for Python/PySide6, Pillow, pefile, pypdf,
+Androguard, apkInspector, cryptography, lxml, Loguru, win32-setctime, and PyInstaller. Refer to each
+project's bundled metadata and upstream license for complete terms.
